@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book pitch time</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+
+
+
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="paddel_giphy.mp4" type="video/webm">
+        </video>
+    </div>
+
+    <div class="main-block">
+      <div class="left-part">
+        <i class="fas fa-baseball-ball fa-7x"></i>
+        <h1>Book a time with us</h1>
+        <p>We provide multple high quality pitches available for hire. Book now only 15€/hour</p>
+        <div class="btn-group">
+          <a class="btn-item" href="https://www.w3docs.com/learn-html.html">Shop</a>
+          <a class="btn-item" href="https://www.w3docs.com/quiz/#">Our pitches</a>
+        </div>
+      </div>
+      <form action="/">
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i>
+          <h2>Book here</h2>
+        </div>
+        <div class="info">
+          <input class="fname" type="text" name="full-name" placeholder="Full name">
+          <input type="text" name="email" placeholder="Email">
+          <input type="text" name="phone" placeholder="Phone number">
+          <select>
+            <option value="time" selected>Time*</option>
+            <option value="first-time">17:00-18:00</option>
+            <option value="second-time">18:00-19:00</option>
+          </select>
+          <select>
+            <option value="pitch-type" selected>Pitch type*</option>
+            <option value="padel-pitch">Padel pitch</option>
+            <option value="tennis-pitch">Tennis pitch</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to the <a href="https://www.padelmasters.com/privacy-policy">Privacy Poalicy for Padel Masters.</a></span>
+        </div>
+        <button type="submit" href="/">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
